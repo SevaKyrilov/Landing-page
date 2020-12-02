@@ -1,0 +1,85 @@
+.navbar-dark .navbar-brand{
+	color: red;
+}
+.navbar-dark .navbar-brand:hover{
+	color: red;
+}
+.header{
+	background-image: url("https://i.insider.com/5d9b5bff52887931e8497a36?width=1100&format=jpeg&auto=webp");
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+	margin-top: 3rem;
+	height: 50rem;
+}
+.overlay{
+	background: rgba(128,128,128, 0.5);	
+	min-width: 100%;
+	min-height: 50rem;
+	position: absolute;
+}
+.description{
+	position: absolute;
+	top: 40%;
+	color: white;
+	margin: auto;
+}
+.about{
+	background-color: #343a40;
+	color: white;
+	padding: 2em 10rem;
+}
+
+
+.img_logo{
+	width: 150rem;
+	padding-left:  
+}
+.galerry{
+	background-color: lightgray;
+	padding: 4em 10em;
+	position: relative;
+	color: white;
+}
+.blog{
+	background-color:#343a40;
+	padding: 4em 10em;
+	position: relative;
+	color: white;
+}
+.card-body{
+	color: #343a40;
+}
+.team{
+	padding: 4em 10em;
+	position: relative;
+}
+.des{
+	background: #343a40!important;
+	color: white;
+	text-align: right;
+	padding-right: 1rem;
+	border-top-left-radius: 88%;
+}
+.manager:hover.des{
+	background: #343a40!important;
+	opacity: 40%;
+	width: 90%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	border-top-left-radius: 78%;
+	transition: .5s ease-in-out; 
+}
+.manager:hover .hide{
+	visibility: hidden;
+}
+.contact{
+	background-color:#343a40!important;
+	padding: 4em 10em;
+	position: relative;
+	color: white;
+}
+.vert_aline{
+	padding-top: 3rem;
+}
